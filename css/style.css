@@ -20,34 +20,11 @@
     src: url(../resources/fonts/The\ Brande\ and\ Lotaline.ttf);
 }
 /* ************HEADER******** */
-/* .header{
-    display: flex;
-    background-color: #252424;
-    justify-content: space-around;
-    border: groove #a8e6f7;
+.navbar{
+    color: aliceblue;
+    background-color: #252424 !important;
+    /* se utiliza !important para pisar el important en el backround de bootstrap */
 }
-.header img{
-    display: flex;
-    width: 300px;
-    height: 120px;
-    align-items: center;
-}
-.header ul{
-    display: flex;
-    width: 700px;
-    height: 120px;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.header a{
-    color: #a8e6f7;
-    font-family: "Paragone";
-    text-decoration: none;
-    font-size: x-large;
-    text-transform: uppercase;
-    border: groove;
-} */
 
 /* ************ MAIN ******** */
 

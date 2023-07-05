@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+@font-face {
+    font-family: "Paragone";
+    src: url(../resources/fonts/Paragone.ttf);
+}
+@font-face {
+    font-family: "Extradicta";
+    src: url(../resources/fonts/Extradicta.ttf);
+}
+@font-face {
+    font-family: "Olympia";
+    src: url(../resources/fonts/Olympia\ Free.ttf);
+}
+@font-face {
+    font-family: "Lotaline";
+    src: url(../resources/fonts/The\ Brande\ and\ Lotaline.ttf);
+}
+/* ************HEADER******** */
+/* .header{
+    display: flex;
+    background-color: #252424;
+    justify-content: space-around;
+    border: groove #a8e6f7;
+}
+.header img{
+    display: flex;
+    width: 300px;
+    height: 120px;
+    align-items: center;
+}
+.header ul{
+    display: flex;
+    width: 700px;
+    height: 120px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header a{
+    color: #a8e6f7;
+    font-family: "Paragone";
+    text-decoration: none;
+    font-size: x-large;
+    text-transform: uppercase;
+    border: groove;
+} */
+
+/* ************ MAIN ******** */
+
+main{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #a8e6f7;
+}
+
+.main{
+    background-color: #a8e6f7;
+}
+
+main img{
+    margin: 0 120px;
+}
+
+.iframe{
+    background-color: #98d3e3;
+    display: flex;
+    height: 400px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.oferta img{
+    width: 170px;
+    padding: 40px;
+    background-color: #252424;
+
+}
+.oferta{
+    background-color: #8cc8d9;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.of1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/* *********** FOOTER ********** */
+
+.footer{
+    background-color: #252424;
+    border: groove #8cc8d9;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.footer a{
+    color: #8cc8d9;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.div1f{
+    display: flex;
+    width: 400px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.div1f ul li{
+    margin: 30px;
+}
+.div2f ul li{
+    margin: 15px;
+}
+.div2f{
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer h4{
+    color: #8cc8d9;
+}
+h6{
+    color: #8cc8d9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* CARRITO */
+
+.main-carrito img{
+    width: 400px;
+    background-color: #252424;
+    padding: 30px;
+}
+
+.main-carrito{
+    background-color: #a8e6f7;
+    display: flex;
+    height: 700px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.div-carrito{
+    display: flex;
+    width: 800px;
+    justify-content: space-around;
+}
+
+.div-carrito a{
+    color: #a8e6f7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    text-decoration: none;
+    background-color: #252424;
+    padding: 5px;
+}
+
+/* CONTACTO */
+
+.main-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 450px;
+}
+
+.main-contacto a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.div-contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.consulta{
+    height: 160px;
+    width: 250px;
+}
+
+/* PREGUNTAS FRECUENTES */
+
+main div p a{
+    text-decoration: none;
+    color: #de1212;
+}
+.main-faqs{
+    display: flex;
+    height: 400px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-faqs div{
+    width: 800px;
+}
+
+/* MASCULINAS Y FEMENINAS */
+
+.fragancias img{
+    width: 190px;
+}
+
+.fragancias{
+    display: flex;
+    height: 1000px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+.frag1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-frag{
+    display: flex;
+    justify-content: center;
+}

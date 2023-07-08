@@ -75,7 +75,7 @@ main{
     height: 700px;
 }
 .main{
-    background-image: url(../resources/fondo-main.jpg);
+    background-image: url(../resources/fondo-main1.jpg);
     background-size: cover;
 }
 .btn2{
@@ -125,17 +125,21 @@ main img{
 
 }
 .banner{
-    width: 1150px;
-    height: 350px;
+    width: auto;
+
 }
 .h2-main{
     background-color: rgb(249, 225, 165);
+    margin-top: 10px;
 }
 h3{
     border-radius: 5px;
-    border: rgb(255, 215, 112) groove;
-    background-image: url(../resources/h2-fondo.avif);
+    border: rgb(135, 131, 121) groove;
+    background-image: url(../resources/fondo.jpg);
     background-size: cover;
+    color: rgb(240, 196, 84);
+}
+.price{
     color: #000000;
 }
 .main-pd-bot{
@@ -200,12 +204,13 @@ h6{
 
 .main-carrito img{
     width: 400px;
-    background-color: #252424;
+    background-image: url(../resources/fondo.jpg);
+    background-size: cover;
     padding: 30px;
+    border-radius: 60px;
 }
 
 .main-carrito{
-    background-color: #a8e6f7;
     display: flex;
     height: 700px;
     flex-direction: column;
@@ -220,12 +225,15 @@ h6{
 }
 
 .div-carrito a{
-    color: #a8e6f7;
+    color: rgb(240, 196, 84);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: x-large;
     text-decoration: none;
-    background-color: #252424;
+    background-image: url(../resources/fondo.jpg);
     padding: 5px;
+}
+.div-carrito a:hover{
+    color: #ffffff;
 }
 
 /* CONTACTO */
@@ -262,7 +270,6 @@ main div p a{
 }
 .main-faqs{
     display: flex;
-    height: 400px;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;

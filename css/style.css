@@ -10,7 +10,7 @@
 
 /* ************HEADER******** */
 .navbar{
-    background-image: url(../resources/fondo.jpg) !important;
+    background-image: url(../resources/fondo-smoke.jpg) !important;
    /* se utiliza !important para pisar el important en el backround de bootstrap */
     background-size: cover;
 }
@@ -94,12 +94,14 @@ main img{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    margin: 30px 0;
 }
 
 .oferta img{
     width: 170px;
     padding: 40px;
-    background-color: #252424;
+    background-image: url(../resources/fondo-smoke.jpg);
+    background-size: cover;
 
 }
 .oferta{
@@ -117,13 +119,33 @@ main img{
     background-color: rgb(249, 225, 165);
     color: #252424;
 }
+.perf-banner{
+    display: flex;
+    margin: 50px 0;
 
-
+}
+.banner{
+    width: 1150px;
+    height: 350px;
+}
+.h2-main{
+    background-color: rgb(249, 225, 165);
+}
+h3{
+    border-radius: 5px;
+    border: rgb(255, 215, 112) groove;
+    background-image: url(../resources/h2-fondo.avif);
+    background-size: cover;
+    color: #000000;
+}
+.main-pd-bot{
+    padding-bottom: 20px;
+}
 
 /* *********** FOOTER ********** */
 
 .footer{
-    background-image: url(../resources/fondo.jpg);
+    background-image: url(../resources/fondo-smoke.jpg);
     background-size: cover;
     border: groove #f5eb5b;
     display: flex;

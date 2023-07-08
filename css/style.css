@@ -71,8 +71,8 @@ main{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .hero{
-    width: 1280px;
-    height: 650px;
+    width: 1444px;
+    height: 700px;
 }
 .main{
     background-image: url(../resources/fondo-main.jpg);
@@ -88,7 +88,7 @@ main img{
     margin: auto;
 }
 
-.iframe{
+.iframe-div{
     display: flex;
     height: 400px;
     flex-direction: column;
@@ -113,25 +113,37 @@ main img{
     flex-direction: column;
     align-items: center;
 }
+.hover2:hover{
+    background-color: rgb(249, 225, 165);
+    color: #252424;
+}
 
 
 
 /* *********** FOOTER ********** */
 
 .footer{
-    background-color: #252424;
-    border: groove #8cc8d9;
+    background-image: url(../resources/fondo.jpg);
+    background-size: cover;
+    border: groove #f5eb5b;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    text-transform: uppercase;
+    color: rgb(255, 215, 112);
+    font-weight: 600;
 }
 
 .footer a{
-    color: #8cc8d9;
+    color: rgb(255, 215, 112);
     text-decoration: none;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Rari";
     font-size: large;
+    padding: 8px;
+}
+.footer a:hover{
+    background-color: rgb(255, 215, 112);
+    color: #252424;
+    border-radius: 5px;
 }
 
 .div1f{
@@ -156,12 +168,10 @@ main img{
     align-items: center;
 }
 
-footer h4{
-    color: #8cc8d9;
-}
+
 h6{
-    color: #8cc8d9;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
 }
 
 /* CARRITO */

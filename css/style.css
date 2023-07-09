@@ -280,9 +280,20 @@ h6 {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 750px;
+    height: 850px;
 }
+.main-contacto p{
+    color: rgb(240, 196, 84);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    text-decoration: none;
+    background-image: url(../resources/fondo.jpg);
+    background-size: cover;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px 0;
 
+}
 .main-contacto a {
     color: rgb(240, 196, 84);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -301,7 +312,9 @@ h6 {
     align-items: center;
     padding: 30px;
 }
-
+.div-contacto br{
+    display: none;
+}
 .consulta {
     height: 160px;
     width: 250px;
@@ -409,4 +422,97 @@ main div p a {
     display: flex;
     padding-left: 0;
     list-style: none;
+}
+
+
+/* ******************* QUERYS ************************************* */
+
+@media (max-width:426px) {
+/* *************** NAVBAR ************************* */
+    .navbar-toggler{
+        background-color: rgb(255, 215, 112);
+     }
+
+     .links{
+        display: flex;
+        flex-direction: column;
+        padding: 15px; 
+     }
+     .btn-mq-flex{
+        margin: 10px 85px;
+        justify-content: center;
+     }
+     .alas{
+        padding: 15px 110px;
+     }
+/* *********************** FOOTER *********************  */
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+.div1f{
+    height: auto;
+    padding-top: 10px;
+}
+.div2f{
+    height: auto;
+}
+/* ************************** MAIN INDEX ************************** */
+.hero{
+    width: 425px;
+    height: 230px;
+}
+.h2-main{
+    margin: 10px 30px;
+    text-align: center;
+}
+.iframe-div{
+    margin: auto;
+}
+.iframe-div iframe{
+    width: 420px;
+}
+.oferta{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+.perf-banner img{
+    width: 450px;
+    height: 140px;
+    align-items: center;
+}
+/* ****************** MAIN FRAGANCIAS *************************** */
+.fragancias{
+    grid-template-areas: none
+    ;
+}
+h3{
+    text-align: center;
+}
+/* ***************************** MAIN CARRITO ******************************** */
+.div-carrito{
+    flex-direction: column;
+    width: auto;
+}
+.main-carrito h3{
+    margin: 10px 0;
+}
+.main-carrito{
+    height: auto;
+}
+/* ***************************** MAIN FAQS ************************** */
+.main-faqs div{
+    width: auto;
+}
+.accordion-body {
+    background-image: url(../resources/fondo-humo.jpeg);
+    color: rgb(255, 215, 112);
+    background-size: cover;
+    background-position: top;
+}
+/* ************************************ MAIN CONTACTO *********************** */
+.div-contacto p{
+    text-align: center;
+}
 }

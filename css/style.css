@@ -445,6 +445,9 @@ main div p a {
      .alas{
         padding: 15px 110px;
      }
+     .fuente{
+        justify-content: center;
+     }
 /* *********************** FOOTER *********************  */
 .footer{
     display: flex;
